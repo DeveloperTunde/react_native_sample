@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* BraceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BraceTests.m */; };
+		014FAABA17C74D2289C8E8F0 /* Faktum-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0ED45A97110407FA898DC08 /* Faktum-Medium.otf */; };
+		060548166E06497C8CE1264F /* Faktum-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 384ECAF5889248529AFA98E1 /* Faktum-Bold.otf */; };
+		062B26DE5CCD4067A4FE6825 /* Faktum-XConLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 750ECB7445634C07AEAC52A0 /* Faktum-XConLight.otf */; };
+		074DBCBE285C408F00D5EE56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 074DBCBD285C408F00D5EE56 /* GoogleService-Info.plist */; };
+		08737FF499E0486B8AC87D75 /* Faktum-XConSemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E10A17E7FC83410CBF0A1ABF /* Faktum-XConSemiBold.otf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-Brace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Brace.a */; };
+		111D9A724D6249A5B81F2EA4 /* Faktum-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82934BCB2F024030927BF052 /* Faktum-SemiBoldItalic.otf */; };
+		11B756FDCBD54B76993BF68C /* Faktum-WideExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BAD32175519433DA1D7B478 /* Faktum-WideExtraBold.otf */; };
+		125C0A87959D4DBBBAE875A5 /* Faktum-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49C432C182B640C480A211E1 /* Faktum-Regular.otf */; };
+		1373CA4B7ECD4195B0A07053 /* Faktum-ConExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FDD9C7F0255643309B39B2F2 /* Faktum-ConExtraBold.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2182238883744C53A1E6F4D1 /* Faktum-ConRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6ACCBFD5FA594AE58CCEA563 /* Faktum-ConRegular.otf */; };
+		23A99609CA6F40ECB8188969 /* Faktum-XConMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9D9BBD46B604D7C83EA501E /* Faktum-XConMedium.otf */; };
+		27050BB4207643DA8561F190 /* Faktum-WideExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 769A30079C9A41C1B5A26648 /* Faktum-WideExtraLight.otf */; };
+		28CCBF972A8E43579AF1234D /* Faktum-ConThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7ECC416B3E442CE930EB327 /* Faktum-ConThin.otf */; };
+		3B060270942146AABBBA80E6 /* Faktum-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6836C0A720C0463CB8B20350 /* Faktum-ThinItalic.otf */; };
+		44EC56C3B3094BCAA506D763 /* Faktum-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6CADD54611945B894524ACC /* Faktum-ExtraLightItalic.otf */; };
+		4C6ABBB04EF74AF7B5CC7F14 /* Faktum-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5DB7DB168D414EB69CF07348 /* Faktum-SemiBold.otf */; };
+		66EFB0D944544F22905DFA16 /* Faktum-XConBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5F1F4844B654329BAA7F863 /* Faktum-XConBold.otf */; };
+		6768889DA79F4C738D438EA2 /* Faktum-XConExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08FF4EE878C44FAFBA139494 /* Faktum-XConExtraLight.otf */; };
+		6C6F342FF9794DF2938C42F5 /* Faktum-WideThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 810FBE61BAD94D86A5BDF477 /* Faktum-WideThin.otf */; };
+		6DFE23AD808A45E79906C488 /* Faktum-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40BC8C29A25D4AF4968004E6 /* Faktum-ExtraLight.otf */; };
+		7699B88040F8A987B510C191 /* libPods-Brace-BraceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Brace-BraceTests.a */; };
+		7CAA1176FBF94851B370B99E /* Faktum-XConExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E266A78670684432818F33CC /* Faktum-XConExtraBold.otf */; };
+		8157955DA1F24ED6BC871A03 /* Faktum-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D420321FAB1044849A0D5EEF /* Faktum-Light.otf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8A902EACD4AA4371AC0DF42B /* Faktum-ConBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B03AE208412468FAD66784F /* Faktum-ConBold.otf */; };
+		916BD43409674DD8B1DB2CCF /* Faktum-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 223A0989AEBC4E43A7DA64D6 /* Faktum-MediumItalic.otf */; };
+		917AA3BA35204781B3C8D0AE /* Faktum-ConMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F05106AD809C44F5A8597DA9 /* Faktum-ConMedium.otf */; };
+		954FE916563348AAB31D6C13 /* Faktum-ConLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1706A391434C119B045B58 /* Faktum-ConLight.otf */; };
+		95F241F583844113958BEDA5 /* Faktum-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3753CA026F4948AEB6CFE5D4 /* Faktum-LightItalic.otf */; };
+		96C1100BC3974C1DADE338D5 /* Faktum-ConExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 301AB3FBFDC54CAFA7920715 /* Faktum-ConExtraLight.otf */; };
+		9AF0E773951A4C969F689421 /* Faktum-WideMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 691353CC04964CE0BA469FAA /* Faktum-WideMedium.otf */; };
+		9F4A775AEA494065A4E6D993 /* Faktum-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66C99CCFFCD24184AE77065D /* Faktum-BoldItalic.otf */; };
+		A0BDE9EFEBF64EC39D88FEB9 /* Faktum-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B61C145C3FC49A79F6CC0B6 /* Faktum-Thin.otf */; };
+		A198ED9D76324087983F6F12 /* Faktum-WideSemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5E6AE338ACA426BA3E83715 /* Faktum-WideSemiBold.otf */; };
+		A89D287C88E3488797E303FD /* Faktum-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D528BE65FCB452E86953F6C /* Faktum-RegularItalic.otf */; };
+		B672AFC8DD9A4227825A463B /* Faktum-WideBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9493079377E44AAA8CC1FF70 /* Faktum-WideBold.otf */; };
+		BB631BD0826F4686A3D18F9C /* Faktum-WideRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1660B442FE84A62B4B8C284 /* Faktum-WideRegular.otf */; };
+		BCAF16551FED428587C5C0E0 /* Faktum-XConThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 42969E8B3E3D4D32B45B86D3 /* Faktum-XConThin.otf */; };
+		C27FFEA119AE45068202AFCD /* Faktum-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0E873A98C4EF42F4AF644822 /* Faktum-ExtraBoldItalic.otf */; };
+		CA0A7724C4AC466B9AAE1AA7 /* Faktum-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6BF392842E44574AF372939 /* Faktum-ExtraBold.otf */; };
+		D49A38E89D2F471583FCF8A8 /* Faktum-ConSemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89DFC8A74DE846EDA03987DF /* Faktum-ConSemiBold.otf */; };
+		E2555C8A62F9471B96391ECF /* Faktum-XConRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D0868F3D54516B7C5500F /* Faktum-XConRegular.otf */; };
+		F1D03B5FB45B4226AC02DF82 /* Faktum-WideLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4378C04FA724FC7BCE76802 /* Faktum-WideLight.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Brace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* BraceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BraceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BraceTests.m; sourceTree = "<group>"; };
+		074DBCBD285C408F00D5EE56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		074DBCBF285C43F500D5EE56 /* Brace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Brace.entitlements; path = Brace/Brace.entitlements; sourceTree = "<group>"; };
+		08FF4EE878C44FAFBA139494 /* Faktum-XConExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-XConExtraLight.otf"; path = "../assets/fonts/Faktum-XConExtraLight.otf"; sourceTree = "<group>"; };
+		0B61C145C3FC49A79F6CC0B6 /* Faktum-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-Thin.otf"; path = "../assets/fonts/Faktum-Thin.otf"; sourceTree = "<group>"; };
+		0E873A98C4EF42F4AF644822 /* Faktum-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ExtraBoldItalic.otf"; path = "../assets/fonts/Faktum-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Brace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Brace/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Brace/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Brace/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Brace/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Brace/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Brace-BraceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Brace-BraceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		223A0989AEBC4E43A7DA64D6 /* Faktum-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-MediumItalic.otf"; path = "../assets/fonts/Faktum-MediumItalic.otf"; sourceTree = "<group>"; };
+		2BAD32175519433DA1D7B478 /* Faktum-WideExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-WideExtraBold.otf"; path = "../assets/fonts/Faktum-WideExtraBold.otf"; sourceTree = "<group>"; };
+		2D528BE65FCB452E86953F6C /* Faktum-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-RegularItalic.otf"; path = "../assets/fonts/Faktum-RegularItalic.otf"; sourceTree = "<group>"; };
+		301AB3FBFDC54CAFA7920715 /* Faktum-ConExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ConExtraLight.otf"; path = "../assets/fonts/Faktum-ConExtraLight.otf"; sourceTree = "<group>"; };
+		3753CA026F4948AEB6CFE5D4 /* Faktum-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-LightItalic.otf"; path = "../assets/fonts/Faktum-LightItalic.otf"; sourceTree = "<group>"; };
+		384ECAF5889248529AFA98E1 /* Faktum-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-Bold.otf"; path = "../assets/fonts/Faktum-Bold.otf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-Brace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brace.debug.xcconfig"; path = "Target Support Files/Pods-Brace/Pods-Brace.debug.xcconfig"; sourceTree = "<group>"; };
+		40BC8C29A25D4AF4968004E6 /* Faktum-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ExtraLight.otf"; path = "../assets/fonts/Faktum-ExtraLight.otf"; sourceTree = "<group>"; };
+		42969E8B3E3D4D32B45B86D3 /* Faktum-XConThin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-XConThin.otf"; path = "../assets/fonts/Faktum-XConThin.otf"; sourceTree = "<group>"; };
+		49C432C182B640C480A211E1 /* Faktum-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-Regular.otf"; path = "../assets/fonts/Faktum-Regular.otf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-Brace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brace.release.xcconfig"; path = "Target Support Files/Pods-Brace/Pods-Brace.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-Brace-BraceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brace-BraceTests.debug.xcconfig"; path = "Target Support Files/Pods-Brace-BraceTests/Pods-Brace-BraceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DB7DB168D414EB69CF07348 /* Faktum-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-SemiBold.otf"; path = "../assets/fonts/Faktum-SemiBold.otf"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-Brace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Brace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C99CCFFCD24184AE77065D /* Faktum-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-BoldItalic.otf"; path = "../assets/fonts/Faktum-BoldItalic.otf"; sourceTree = "<group>"; };
+		6836C0A720C0463CB8B20350 /* Faktum-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ThinItalic.otf"; path = "../assets/fonts/Faktum-ThinItalic.otf"; sourceTree = "<group>"; };
+		691353CC04964CE0BA469FAA /* Faktum-WideMedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-WideMedium.otf"; path = "../assets/fonts/Faktum-WideMedium.otf"; sourceTree = "<group>"; };
+		6A0D0868F3D54516B7C5500F /* Faktum-XConRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-XConRegular.otf"; path = "../assets/fonts/Faktum-XConRegular.otf"; sourceTree = "<group>"; };
+		6ACCBFD5FA594AE58CCEA563 /* Faktum-ConRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ConRegular.otf"; path = "../assets/fonts/Faktum-ConRegular.otf"; sourceTree = "<group>"; };
+		750ECB7445634C07AEAC52A0 /* Faktum-XConLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-XConLight.otf"; path = "../assets/fonts/Faktum-XConLight.otf"; sourceTree = "<group>"; };
+		769A30079C9A41C1B5A26648 /* Faktum-WideExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-WideExtraLight.otf"; path = "../assets/fonts/Faktum-WideExtraLight.otf"; sourceTree = "<group>"; };
+		810FBE61BAD94D86A5BDF477 /* Faktum-WideThin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-WideThin.otf"; path = "../assets/fonts/Faktum-WideThin.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Brace/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82934BCB2F024030927BF052 /* Faktum-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-SemiBoldItalic.otf"; path = "../assets/fonts/Faktum-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-Brace-BraceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brace-BraceTests.release.xcconfig"; path = "Target Support Files/Pods-Brace-BraceTests/Pods-Brace-BraceTests.release.xcconfig"; sourceTree = "<group>"; };
+		89DFC8A74DE846EDA03987DF /* Faktum-ConSemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ConSemiBold.otf"; path = "../assets/fonts/Faktum-ConSemiBold.otf"; sourceTree = "<group>"; };
+		9493079377E44AAA8CC1FF70 /* Faktum-WideBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-WideBold.otf"; path = "../assets/fonts/Faktum-WideBold.otf"; sourceTree = "<group>"; };
+		9B03AE208412468FAD66784F /* Faktum-ConBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ConBold.otf"; path = "../assets/fonts/Faktum-ConBold.otf"; sourceTree = "<group>"; };
+		A6BF392842E44574AF372939 /* Faktum-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ExtraBold.otf"; path = "../assets/fonts/Faktum-ExtraBold.otf"; sourceTree = "<group>"; };
+		A9D9BBD46B604D7C83EA501E /* Faktum-XConMedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-XConMedium.otf"; path = "../assets/fonts/Faktum-XConMedium.otf"; sourceTree = "<group>"; };
+		B5E6AE338ACA426BA3E83715 /* Faktum-WideSemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-WideSemiBold.otf"; path = "../assets/fonts/Faktum-WideSemiBold.otf"; sourceTree = "<group>"; };
+		C5F1F4844B654329BAA7F863 /* Faktum-XConBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-XConBold.otf"; path = "../assets/fonts/Faktum-XConBold.otf"; sourceTree = "<group>"; };
+		C6CADD54611945B894524ACC /* Faktum-ExtraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ExtraLightItalic.otf"; path = "../assets/fonts/Faktum-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		C7ECC416B3E442CE930EB327 /* Faktum-ConThin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ConThin.otf"; path = "../assets/fonts/Faktum-ConThin.otf"; sourceTree = "<group>"; };
+		CE1706A391434C119B045B58 /* Faktum-ConLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ConLight.otf"; path = "../assets/fonts/Faktum-ConLight.otf"; sourceTree = "<group>"; };
+		D0ED45A97110407FA898DC08 /* Faktum-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-Medium.otf"; path = "../assets/fonts/Faktum-Medium.otf"; sourceTree = "<group>"; };
+		D420321FAB1044849A0D5EEF /* Faktum-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-Light.otf"; path = "../assets/fonts/Faktum-Light.otf"; sourceTree = "<group>"; };
+		E10A17E7FC83410CBF0A1ABF /* Faktum-XConSemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-XConSemiBold.otf"; path = "../assets/fonts/Faktum-XConSemiBold.otf"; sourceTree = "<group>"; };
+		E266A78670684432818F33CC /* Faktum-XConExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-XConExtraBold.otf"; path = "../assets/fonts/Faktum-XConExtraBold.otf"; sourceTree = "<group>"; };
+		E4378C04FA724FC7BCE76802 /* Faktum-WideLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-WideLight.otf"; path = "../assets/fonts/Faktum-WideLight.otf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F05106AD809C44F5A8597DA9 /* Faktum-ConMedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ConMedium.otf"; path = "../assets/fonts/Faktum-ConMedium.otf"; sourceTree = "<group>"; };
+		F1660B442FE84A62B4B8C284 /* Faktum-WideRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-WideRegular.otf"; path = "../assets/fonts/Faktum-WideRegular.otf"; sourceTree = "<group>"; };
+		FDD9C7F0255643309B39B2F2 /* Faktum-ConExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Faktum-ConExtraBold.otf"; path = "../assets/fonts/Faktum-ConExtraBold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-Brace-BraceTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-Brace.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* BraceTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* BraceTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = BraceTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A68A9A2D49340F9ABCB197D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				384ECAF5889248529AFA98E1 /* Faktum-Bold.otf */,
+				66C99CCFFCD24184AE77065D /* Faktum-BoldItalic.otf */,
+				9B03AE208412468FAD66784F /* Faktum-ConBold.otf */,
+				FDD9C7F0255643309B39B2F2 /* Faktum-ConExtraBold.otf */,
+				301AB3FBFDC54CAFA7920715 /* Faktum-ConExtraLight.otf */,
+				CE1706A391434C119B045B58 /* Faktum-ConLight.otf */,
+				F05106AD809C44F5A8597DA9 /* Faktum-ConMedium.otf */,
+				6ACCBFD5FA594AE58CCEA563 /* Faktum-ConRegular.otf */,
+				89DFC8A74DE846EDA03987DF /* Faktum-ConSemiBold.otf */,
+				C7ECC416B3E442CE930EB327 /* Faktum-ConThin.otf */,
+				A6BF392842E44574AF372939 /* Faktum-ExtraBold.otf */,
+				0E873A98C4EF42F4AF644822 /* Faktum-ExtraBoldItalic.otf */,
+				40BC8C29A25D4AF4968004E6 /* Faktum-ExtraLight.otf */,
+				C6CADD54611945B894524ACC /* Faktum-ExtraLightItalic.otf */,
+				D420321FAB1044849A0D5EEF /* Faktum-Light.otf */,
+				3753CA026F4948AEB6CFE5D4 /* Faktum-LightItalic.otf */,
+				D0ED45A97110407FA898DC08 /* Faktum-Medium.otf */,
+				223A0989AEBC4E43A7DA64D6 /* Faktum-MediumItalic.otf */,
+				49C432C182B640C480A211E1 /* Faktum-Regular.otf */,
+				2D528BE65FCB452E86953F6C /* Faktum-RegularItalic.otf */,
+				5DB7DB168D414EB69CF07348 /* Faktum-SemiBold.otf */,
+				82934BCB2F024030927BF052 /* Faktum-SemiBoldItalic.otf */,
+				0B61C145C3FC49A79F6CC0B6 /* Faktum-Thin.otf */,
+				6836C0A720C0463CB8B20350 /* Faktum-ThinItalic.otf */,
+				9493079377E44AAA8CC1FF70 /* Faktum-WideBold.otf */,
+				2BAD32175519433DA1D7B478 /* Faktum-WideExtraBold.otf */,
+				769A30079C9A41C1B5A26648 /* Faktum-WideExtraLight.otf */,
+				E4378C04FA724FC7BCE76802 /* Faktum-WideLight.otf */,
+				691353CC04964CE0BA469FAA /* Faktum-WideMedium.otf */,
+				F1660B442FE84A62B4B8C284 /* Faktum-WideRegular.otf */,
+				B5E6AE338ACA426BA3E83715 /* Faktum-WideSemiBold.otf */,
+				810FBE61BAD94D86A5BDF477 /* Faktum-WideThin.otf */,
+				C5F1F4844B654329BAA7F863 /* Faktum-XConBold.otf */,
+				E266A78670684432818F33CC /* Faktum-XConExtraBold.otf */,
+				08FF4EE878C44FAFBA139494 /* Faktum-XConExtraLight.otf */,
+				750ECB7445634C07AEAC52A0 /* Faktum-XConLight.otf */,
+				A9D9BBD46B604D7C83EA501E /* Faktum-XConMedium.otf */,
+				6A0D0868F3D54516B7C5500F /* Faktum-XConRegular.otf */,
+				E10A17E7FC83410CBF0A1ABF /* Faktum-XConSemiBold.otf */,
+				42969E8B3E3D4D32B45B86D3 /* Faktum-XConThin.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Brace */ = {
+			isa = PBXGroup;
+			children = (
+				074DBCBF285C43F500D5EE56 /* Brace.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Brace;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-Brace.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Brace-BraceTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				074DBCBD285C408F00D5EE56 /* GoogleService-Info.plist */,
+				13B07FAE1A68108700A75B9A /* Brace */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* BraceTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0A68A9A2D49340F9ABCB197D /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Brace.app */,
+				00E356EE1AD99517003FC87E /* BraceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-Brace.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-Brace.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-Brace-BraceTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-Brace-BraceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* BraceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BraceTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = BraceTests;
+			productName = BraceTests;
+			productReference = 00E356EE1AD99517003FC87E /* BraceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Brace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Brace" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				913419724EE56B964982CFF6 /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brace;
+			productName = Brace;
+			productReference = 13B07F961A680F5B00A75B9A /* Brace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Brace" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Brace */,
+				00E356ED1AD99517003FC87E /* BraceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				060548166E06497C8CE1264F /* Faktum-Bold.otf in Resources */,
+				9F4A775AEA494065A4E6D993 /* Faktum-BoldItalic.otf in Resources */,
+				8A902EACD4AA4371AC0DF42B /* Faktum-ConBold.otf in Resources */,
+				1373CA4B7ECD4195B0A07053 /* Faktum-ConExtraBold.otf in Resources */,
+				96C1100BC3974C1DADE338D5 /* Faktum-ConExtraLight.otf in Resources */,
+				954FE916563348AAB31D6C13 /* Faktum-ConLight.otf in Resources */,
+				917AA3BA35204781B3C8D0AE /* Faktum-ConMedium.otf in Resources */,
+				2182238883744C53A1E6F4D1 /* Faktum-ConRegular.otf in Resources */,
+				074DBCBE285C408F00D5EE56 /* GoogleService-Info.plist in Resources */,
+				D49A38E89D2F471583FCF8A8 /* Faktum-ConSemiBold.otf in Resources */,
+				28CCBF972A8E43579AF1234D /* Faktum-ConThin.otf in Resources */,
+				CA0A7724C4AC466B9AAE1AA7 /* Faktum-ExtraBold.otf in Resources */,
+				C27FFEA119AE45068202AFCD /* Faktum-ExtraBoldItalic.otf in Resources */,
+				6DFE23AD808A45E79906C488 /* Faktum-ExtraLight.otf in Resources */,
+				44EC56C3B3094BCAA506D763 /* Faktum-ExtraLightItalic.otf in Resources */,
+				8157955DA1F24ED6BC871A03 /* Faktum-Light.otf in Resources */,
+				95F241F583844113958BEDA5 /* Faktum-LightItalic.otf in Resources */,
+				014FAABA17C74D2289C8E8F0 /* Faktum-Medium.otf in Resources */,
+				916BD43409674DD8B1DB2CCF /* Faktum-MediumItalic.otf in Resources */,
+				125C0A87959D4DBBBAE875A5 /* Faktum-Regular.otf in Resources */,
+				A89D287C88E3488797E303FD /* Faktum-RegularItalic.otf in Resources */,
+				4C6ABBB04EF74AF7B5CC7F14 /* Faktum-SemiBold.otf in Resources */,
+				111D9A724D6249A5B81F2EA4 /* Faktum-SemiBoldItalic.otf in Resources */,
+				A0BDE9EFEBF64EC39D88FEB9 /* Faktum-Thin.otf in Resources */,
+				3B060270942146AABBBA80E6 /* Faktum-ThinItalic.otf in Resources */,
+				B672AFC8DD9A4227825A463B /* Faktum-WideBold.otf in Resources */,
+				11B756FDCBD54B76993BF68C /* Faktum-WideExtraBold.otf in Resources */,
+				27050BB4207643DA8561F190 /* Faktum-WideExtraLight.otf in Resources */,
+				F1D03B5FB45B4226AC02DF82 /* Faktum-WideLight.otf in Resources */,
+				9AF0E773951A4C969F689421 /* Faktum-WideMedium.otf in Resources */,
+				BB631BD0826F4686A3D18F9C /* Faktum-WideRegular.otf in Resources */,
+				A198ED9D76324087983F6F12 /* Faktum-WideSemiBold.otf in Resources */,
+				6C6F342FF9794DF2938C42F5 /* Faktum-WideThin.otf in Resources */,
+				66EFB0D944544F22905DFA16 /* Faktum-XConBold.otf in Resources */,
+				7CAA1176FBF94851B370B99E /* Faktum-XConExtraBold.otf in Resources */,
+				6768889DA79F4C738D438EA2 /* Faktum-XConExtraLight.otf in Resources */,
+				062B26DE5CCD4067A4FE6825 /* Faktum-XConLight.otf in Resources */,
+				23A99609CA6F40ECB8188969 /* Faktum-XConMedium.otf in Resources */,
+				E2555C8A62F9471B96391ECF /* Faktum-XConRegular.otf in Resources */,
+				08737FF499E0486B8AC87D75 /* Faktum-XConSemiBold.otf in Resources */,
+				BCAF16551FED428587C5C0E0 /* Faktum-XConThin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brace/Pods-Brace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brace/Pods-Brace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brace/Pods-Brace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913419724EE56B964982CFF6 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brace-BraceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brace-BraceTests/Pods-Brace-BraceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brace-BraceTests/Pods-Brace-BraceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brace-BraceTests/Pods-Brace-BraceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brace/Pods-Brace-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brace/Pods-Brace-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brace/Pods-Brace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brace-BraceTests/Pods-Brace-BraceTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brace-BraceTests/Pods-Brace-BraceTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brace-BraceTests/Pods-Brace-BraceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* BraceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Brace */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-Brace-BraceTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BraceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brace.app/Brace";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-Brace-BraceTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = BraceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brace.app/Brace";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-Brace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Brace/Brace.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Brace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Brace;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-Brace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Brace/Brace.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Brace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Brace;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BraceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Brace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Brace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

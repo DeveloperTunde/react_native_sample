@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Brace</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>New Exception Domain</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+
+	
+	
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	 <key>UIAppFonts</key>
+  <array>
+    <string>AntDesign.ttf</string>
+    <string>Entypo.ttf</string>
+    <string>EvilIcons.ttf</string>
+    <string>Feather.ttf</string>
+    <string>FontAwesome.ttf</string>
+    <string>FontAwesome5_Brands.ttf</string>
+    <string>FontAwesome5_Regular.ttf</string>
+    <string>FontAwesome5_Solid.ttf</string>
+    <string>Foundation.ttf</string>
+    <string>Ionicons.ttf</string>
+    <string>MaterialCommunityIcons.ttf</string>
+    <string>MaterialIcons.ttf</string>
+    <string>Octicons.ttf</string>
+    <string>SimpleLineIcons.ttf</string>
+    <string>Zocial.ttf</string>
+    <string>Fontisto.ttf</string>
+
+
+	<string>Faktum-Bold.otf</string>
+	<string>Faktum-BoldItalic.otf</string>
+	<string>Faktum-ConBold.otf</string>
+	<string>Faktum-ConExtraBold.otf</string>
+	<string>Faktum-ConExtraLight.otf</string>
+	<string>Faktum-ConLight.otf</string>
+	<string>Faktum-ConMedium.otf</string>
+	<string>Faktum-ConRegular.otf</string>
+	<string>Faktum-ConSemiBold.otf</string>
+	<string>Faktum-ConThin.otf</string>
+	<string>Faktum-ExtraBold.otf</string>
+	<string>Faktum-ExtraBoldItalic.otf</string>
+	<string>Faktum-ExtraLight.otf</string>
+	<string>Faktum-ExtraLightItalic.otf</string>
+	<string>Faktum-Light.otf</string>
+	<string>Faktum-LightItalic.otf</string>
+	<string>Faktum-Medium.otf</string>
+	<string>Faktum-MediumItalic.otf</string>
+	<string>Faktum-Regular.otf</string>
+	<string>Faktum-RegularItalic.otf</string>
+	<string>Faktum-SemiBold.otf</string>
+	<string>Faktum-SemiBoldItalic.otf</string>
+	<string>Faktum-Thin.otf</string>
+	<string>Faktum-ThinItalic.otf</string>
+	<string>Faktum-WideBold.otf</string>
+	<string>Faktum-WideExtraBold.otf</string>
+	<string>Faktum-WideExtraLight.otf</string>
+	<string>Faktum-WideLight.otf</string>
+	<string>Faktum-WideMedium.otf</string>
+	<string>Faktum-WideRegular.otf</string>
+	<string>Faktum-WideSemiBold.otf</string>
+	<string>Faktum-WideThin.otf</string>
+	<string>Faktum-XConBold.otf</string>
+	<string>Faktum-XConExtraBold.otf</string>
+	<string>Faktum-XConExtraLight.otf</string>
+	<string>Faktum-XConLight.otf</string>
+	<string>Faktum-XConMedium.otf</string>
+	<string>Faktum-XConRegular.otf</string>
+	<string>Faktum-XConSemiBold.otf</string>
+	<string>Faktum-XConThin.otf</string>
+  </array>
+  <key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+
+  	<key>NSContactsUsageDescription</key>
+    <string>$(PRODUCT_NAME) contact use</string>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) camera usage</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) photo library usage</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(PRODUCT_NAME) microsphone usage</string>
+	<key>NSFaceIDUsageDescription</key>
+    <string>$(PRODUCT_NAME) Authentication with TouchId or FaceID</string>
+</dict>
+</plist>
